@@ -1,5 +1,5 @@
 ;(function () {
-	
+
 	'use strict';
 
 	var isMobile = {
@@ -26,17 +26,17 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#colorlib-offcanvas, .js-colorlib-nav-toggle");
+	    var container = $("#wj-offcanvas, .js-colorlib-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
+
 	    	}
-	    
-	    	
+
+
 	    }
 		});
 
@@ -48,12 +48,12 @@
 		$('#page').prepend('<div id="colorlib-offcanvas" />');
 		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
-		$('#colorlib-offcanvas').append(clone1);
+		$('#wj-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
-		$('#colorlib-offcanvas').append(clone2);
+		$('#wj-offcanvas').append(clone2);
 
-		$('#colorlib-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-		$('#colorlib-offcanvas')
+		$('#wj-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
+		$('#wj-offcanvas')
 			.find('li')
 			.removeClass('has-dropdown');
 
@@ -64,14 +64,14 @@
 			$this
 				.addClass('active')
 				.find('ul')
-				.slideDown(500, 'easeOutExpo');				
+				.slideDown(500, 'easeOutExpo');
 		}).mouseleave(function(){
 
 			var $this = $(this);
 			$this
 				.removeClass('active')
 				.find('ul')
-				.slideUp(500, 'easeOutExpo');				
+				.slideUp(500, 'easeOutExpo');
 		});
 
 
@@ -81,7 +81,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
+
 	    	}
 		});
 	};
@@ -111,7 +111,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -134,9 +134,9 @@
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
@@ -168,13 +168,13 @@
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
-			
+
 			event.preventDefault();
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
 			}, 500, 'easeInOutExpo');
-			
+
 			return false;
 		});
 
@@ -188,7 +188,7 @@
 			}
 
 		});
-	
+
 	};
 
 
@@ -206,11 +206,11 @@
 	};
 
 	var counterWayPoint = function() {
-		if ($('#colorlib-counter').length > 0 ) {
-			$('#colorlib-counter').waypoint( function( direction ) {
-										
+		if ($('#wj-counter').length > 0 ) {
+			$('#wj-counter').waypoint( function( direction ) {
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					setTimeout( counter , 400);
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
@@ -218,8 +218,8 @@
 	};
 
 	var sliderMain = function() {
-		
-	  	$('#colorlib-hero .flexslider').flexslider({
+
+	  	$('#wj-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
@@ -238,9 +238,9 @@
 
 	  	});
 
-	  	// $('#colorlib-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// $('#wj-hero .flexslider .slides > li').css('height', $(window).height());
 	  	// $(window).resize(function(){
-	  	// 	$('#colorlib-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// 	$('#wj-hero .flexslider .slides > li').css('height', $(window).height());
 	  	// });
 
 	};
@@ -250,7 +250,7 @@
 		if ( !isMobile.any() ) {
 			$(window).stellar({
 				horizontalScrolling: false,
-				hideDistantElements: false, 
+				hideDistantElements: false,
 				responsive: true
 
 			});
@@ -333,9 +333,9 @@
 
 				$("#sticky_item").stick_in_parent();
 			}
-			
 
-			
+
+
 
 		});
 
@@ -374,7 +374,7 @@
 		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
-		// If the count down is finished, write some text 
+		// If the count down is finished, write some text
 		if (distance < 0) {
 		 clearInterval(x);
 		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
@@ -383,7 +383,7 @@
 
 	// Document on load.
 
-	
+
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
