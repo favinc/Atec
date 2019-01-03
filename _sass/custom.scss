@@ -32,6 +32,10 @@
   .features-wrap h2, .features-wrap h3, .features-wrap p {
     color: $text-color !important;
   }
+
+  .desc {
+    padding-left: 0;
+  }
 }
 
 #wj-testimonial {
