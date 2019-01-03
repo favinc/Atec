@@ -26,13 +26,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#wj-offcanvas, .js-colorlib-nav-toggle");
+	    var container = $("#wj-offcanvas, .js-wj-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
+    			$('.js-wj-nav-toggle').removeClass('active');
 
 	    	}
 
@@ -45,8 +45,8 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="colorlib-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
+		$('#page').prepend('<div id="wj-offcanvas" />');
+		$('#page').prepend('<a href="#" class="js-wj-nav-toggle wj-nav-toggle wj-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#wj-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
@@ -80,7 +80,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
+    			$('.js-wj-nav-toggle').removeClass('active');
 
 	    	}
 		});
@@ -89,7 +89,7 @@
 
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-colorlib-nav-toggle', function(event){
+		$('body').on('click', '.js-wj-nav-toggle', function(event){
 			var $this = $(this);
 
 
@@ -194,7 +194,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".colorlib-loader").fadeOut("slow");
+		$(".wj-loader").fadeOut("slow");
 	};
 
 	var counter = function() {
@@ -369,15 +369,15 @@
 		// + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
-		document.getElementById("days").innerHTML = days +" <small>days</small>";
-		document.getElementById("hours").innerHTML = hours + " <small>hours</small> ";
-		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
-		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
+		//document.getElementById("days").innerHTML = days +" <small>days</small>";
+		//document.getElementById("hours").innerHTML = hours + " <small>hours</small> ";
+		//document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
+		//document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
 		// If the count down is finished, write some text
 		if (distance < 0) {
 		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
+		 //document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
 		}
 		}, 1000);
 
