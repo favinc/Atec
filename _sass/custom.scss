@@ -1,3 +1,26 @@
 .slider-text-inner {
   height: 600px !important;
 }
+
+#wj-services {
+  .services {
+  border: none;
+  &:hover {
+    box-shadow: none;
+  }
+    .icon {
+      position: static;
+      display: inline-block;
+      i {
+        display: block;
+        vertical-align: middle;
+        font-size: 40px;
+        line-height: 65px;
+      }
+    }
+
+    .desc {
+      padding: 0;
+    }
+  }
+}

@@ -4,3 +4,24 @@ landing:
   description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
   button: Know More
   link: '#'
+
+
+offerings:
+  headline: What can we offer?
+  tagline: Our core competence
+  icons:
+    - title: Experience for 50 Years
+      description: The People behind atec, give their best, to offer you as a dentist and your patients, the best possible Service and that for 50 Years
+      icon: icon-user
+
+    - title: Committed Employees
+      description: Our long-term work experience as a team at atec, is one of our big strength
+      icon: icon-heart
+
+    - title: International Partner
+      description: Europe, USA and Switzerland we have strong Partner we can rely on and work together
+      icon: icon-plane
+
+    - title: Long-standing Clients
+      description: For us is quality as well as advice our mission, to give our clients the best experience and success in their day to day work
+      icon: icon-plus
