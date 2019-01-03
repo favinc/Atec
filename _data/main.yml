@@ -26,6 +26,23 @@ offerings:
       description: For us is quality as well as advice our mission, to give our clients the best experience and success in their day to day work
       icon: icon-plus
 
+
+products:
+  headline: Our Products
+  tagline:
+  description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give.
+  button: Know More
+  link: '#'
+  qualities:
+    - title: Metallfreie Wurzelstifte
+      description: Die Wurzelstifte aus Glasfaser und Zirkonoxid bieten eine hervorragende Alternative, wenn hochästhetische, metallfreie Restaurationen erwünscht sind.
+    - title: Wurzelstfite aus Titan
+      description: Das Endofix plus System steht für erfolgreiche, jahrelange Anwendung in der Zahnmedizin und zeichnet sich durch Sicherheit für Patienten und Zahnarzt aus.
+    - title: Bleaching
+      description: Komplettes Patienten-Zahnaufhellungssytem mit drei Komponenten für mehrmalige und einfache Anwendung in der Zahnarztpraxis.
+
+
+
 testimonials:
   headline: What do our partners say?
   tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.

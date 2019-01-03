@@ -1,0 +1,91 @@
+<aside id="wj-hero">
+  <div class="flexslider">
+    <ul class="slides">
+      <li style="background-image: url(images/homebg3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text mt-lg">
+              <div class="slider-text-inner">
+                <h1 class="text-left"><strong>{{site.data.main.products.headline}}</strong></h1>
+                <!-- <h2 class="doc-holder">Dr. Prior's Plastic Surgery Clinic Welcomes You!</h2> -->
+                <h2 class="text-left">{{site.data.main.products.description}}</h2>
+
+                <div class="fancy-collapse-panel">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                      {% for item in site.data.main.products.qualities %}
+                       <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="headingOne">
+                               <h4 class="panel-title">
+                                   <a class="{% if forloop.index == 1 %}{% else %}collapsed{% endif %}" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="collapse{{forloop.index}}">{{item.title}}
+                                   </a>
+                               </h4>
+                           </div>
+                           <div id="collapse{{forloop.index}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}">
+                               <div class="panel-body">
+                                   <div class="row">
+  								      		        <div class="col-md-12">
+  								      			        <p>{{item.description}}</p>
+  								      		        </div>
+
+  								              	</div>
+                               </div>
+                           </div>
+                       </div>
+                      {% endfor %}
+
+
+                    </div>
+                   </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- <li style="background-image: url(images/img_bg_5.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+              <div class="slider-text-inner">
+                <h1>Dr. <strong> Mark Bowman</strong></h1>
+                <h2 class="doc-holder">Dr. Mark Bowman's Dental Clinic Welcomes You!</h2>
+                <h2>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h2>
+                <p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="background-image: url(images/img_bg_1.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+              <div class="slider-text-inner">
+                <h1>Have an Access to <strong>a Health Professional at any time</strong></h1>
+                <h2>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h2>
+                <p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="background-image: url(images/img_bg_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+              <div class="slider-text-inner">
+                <h1>Special offer! <strong>Free Consultation</strong> this month only</h1>
+                <h2>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h2>
+                <p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li> -->
+      </ul>
+    </div>
+</aside>
