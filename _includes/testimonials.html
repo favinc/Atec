@@ -2,24 +2,28 @@
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-6 col-md-offset-3 text-center wj-heading">
-        <h2>What our patients says</h2>
-        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        <h2>{{site.data.main.testimonials.headline}}</h2>
+        <p>{{site.data.main.testimonials.tagline}}</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 animate-box">
         <div class="owl-carousel">
+          {% for item in site.data.main.testimonials.reviews %}
           <div class="item">
             <div class="testimony text-center">
-              <span class="img-user" style="background-image: url(images/person1.jpg);"></span>
-              <span class="user">Edward Tom</span>
+              <span class="img-user" style="background-image: url({{site.baseurl}}{{item.image}});"></span>
+              <span class="user">{{item.name}}</span>
+              <span class="company"><small>{{item.company}}</small></span>
               <blockquote>
-                <p>"The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli."</p>
+                <p>"{{item.review}}"</p>
                 <p class="color"><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span></p>
               </blockquote>
             </div>
           </div>
-          <div class="item">
+          {% endfor %}
+
+          <!-- <div class="item">
             <div class="testimony text-center">
               <span class="img-user" style="background-image: url(images/person2.jpg);"></span>
               <span class="user">Carl Bean</span>
@@ -29,6 +33,7 @@
               </blockquote>
             </div>
           </div>
+
           <div class="item">
             <div class="testimony text-center">
               <span class="img-user" style="background-image: url(images/person3.jpg);"></span>
@@ -39,6 +44,7 @@
               </blockquote>
             </div>
           </div>
+
           <div class="item">
             <div class="testimony text-center">
               <span class="img-user" style="background-image: url(images/person1.jpg);"></span>
@@ -49,6 +55,7 @@
               </blockquote>
             </div>
           </div>
+
           <div class="item">
             <div class="testimony text-center">
               <span class="img-user" style="background-image: url(images/person2.jpg);"></span>
@@ -58,7 +65,8 @@
                 <p class="color"><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span></p>
               </blockquote>
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>

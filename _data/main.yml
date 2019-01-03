@@ -25,3 +25,22 @@ offerings:
     - title: Long-standing Clients
       description: For us is quality as well as advice our mission, to give our clients the best experience and success in their day to day work
       icon: icon-plus
+
+testimonials:
+  headline: What do our partners say?
+  tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+  reviews:
+   - name: Dr. Stephan Gruner
+     company: Micro-Mega Area Manager für Deutschland und Österreich
+     image: /images/staff-3.jpg
+     review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
+
+   - name: Kristof Van Den Bosch
+     company: Sales Manager Eupope SS WHITE BURS, INC.
+     image: /images/staff-2.jpg
+     review: For 10 years the company atec Dental has been selling our SS White products with high product identification and professional competence. As a target-oriented, committed and trustworthy sales partner, atec Dental is indispensable for us on the German market
+
+   - name: Berthold Kümmerle
+     company: Geschäftsführer der Gebrüder Kümmerle GmbH, Präzisionsdrehteile
+     image: /images/staff-4.jpg
+     review: Seit mehr als 20 Jahren verbindet uns eine erfolgreiche Zusammenarbeit mit der Firma atec. Als Hersteller von Implantatstiften und Wurzelaufbauschrauben aus Titan können wir auf eine Vielzahl von gemeinsamen, durchgeführten Projekten sehen, in welchen wir die Firma atec als kompetenten und zuverlässigen Partner kennenlernen durften. Gegenseitiges Vertrauen und gute gegenseitige Abstimmung prägt die Zusammenarbeit bis heute. Wir freuen uns weiterhin auf eine partnerschaftliche, freundliche Geschäftsbeziehung und auf zukünftige Projekte!
