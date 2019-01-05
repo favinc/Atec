@@ -1,3 +1,27 @@
+
+menus:
+  - title: Home
+    link: /
+
+  - title: About Us
+    link: /about/
+
+  - title: Products
+    link: /products/
+    sub:
+      - title: Bestsellers
+        link: /products/bestsellers/
+
+  - title: Our Partners
+    link: /partners/
+
+  - title: FAQs
+    link: /faqs/
+
+  - title: Sales
+    link: /sales/
+
+
 landing:
   headline: Experience combined with Quality
   tagline:
@@ -77,6 +101,6 @@ footer:
   headline: Atec
   logo:
   tagline:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis placeat, iusto fugiat minima minus explicabo possimus eius deserunt consequuntur. 
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis placeat, iusto fugiat minima minus explicabo possimus eius deserunt consequuntur.
   button: Know More
   link: '#'

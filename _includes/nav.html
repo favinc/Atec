@@ -33,8 +33,22 @@
 						<div class="col-xs-8">
 							<div class="menu-1">
 								<ul>
-									<li class="active"><a href="{{site.baseurl}}/">Home</a></li>
-									<li><a href="{{site.baseurl}}/about-us/">About Us</a></li>
+									{% for item in site.data.main.menus %}
+									{% if item.sub %}
+										<li class="has-dropdown">
+											 <a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
+										 <ul class="dropdown">
+											{% for sub in item.sub %}
+											 <li><a href="{{site.baseurl}}{{sub.link}}">{{sub.title}}</a></li>
+											 {% endfor %}
+										 </ul>
+										</li>
+										{% else %}
+									<li class="{% if page.url == item.link %}active{% endif %}"><a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a></li>
+									{% endif %}
+
+									{% endfor %}
+									<!-- <li><a href="{{site.baseurl}}/about-us/">About Us</a></li>
 									 <li class="has-dropdown">
   										<a href="{{site.baseurl}}/products/">Products</a>
 										<ul class="dropdown">
@@ -43,7 +57,7 @@
 									</li>
 									<li><a href="{{site.baseurl}}/our-partners/">Our Partners</a></li>
                   <li><a href="{{site.baseurl}}/faq/">FAQs</a></li>
-                  <li><a href="{{site.baseurl}}/deals/">Sales</a></li>
+                  <li><a href="{{site.baseurl}}/deals/">Sales</a></li> -->
 
                   <!-- <li class="has-dropdown">
 										<a href="departments.html">Departments</a>
