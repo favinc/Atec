@@ -1790,7 +1790,9 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff; }
+  //background: url(../images/loader.svg) center no-repeat #fff;
+  background: #fff;
+}
 
 .row-padded-mb {
   margin-bottom: 3em !important; }

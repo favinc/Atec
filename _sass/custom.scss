@@ -2,6 +2,17 @@ img {
   max-width: 100%;
 }
 
+.load {
+  position: absolute;
+  top: 49%;
+  left: 49%;
+  width: 100px;
+  @include media-query($on-palm) {
+        left: 44%;
+        width: 50px;
+  }
+}
+
 
 .intro-slide {
   .flexslider .slides li {
