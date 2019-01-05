@@ -2,12 +2,15 @@ img {
   max-width: 100%;
 }
 
-.slider-text-inner {
-  height: 600px !important;
-  background: rgba(0, 0, 0, 0.5);
-}
 
-#wj-intro {
+#wj-hero {
+
+  .flexslider .slides li {
+      background-position: right;
+    }
+  .slider-text-inner {
+    height: 800px !important;
+  }
 
 }
 
