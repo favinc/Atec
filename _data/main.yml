@@ -7,7 +7,7 @@ menus:
     link: /about/
 
   - title: Products
-    link: /products/
+    link: '#'
     sub:
       - title: Bestsellers
         link: /products/bestsellers/
