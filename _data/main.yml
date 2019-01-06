@@ -1,4 +1,10 @@
 
+info:
+  phone: +49-7664-9300-22
+  email: info@atec-dental.de
+
+
+
 menus:
   - title: Home
     link: /
