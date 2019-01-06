@@ -6,3 +6,5 @@ permalink: /about/
 
 
 {% include team.html %}
+{% include counter.html %}
+{% include testimonials.html %}
