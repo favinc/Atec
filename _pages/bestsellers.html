@@ -1,0 +1,41 @@
+---
+layout: page
+title: Bestsellers
+permalink: /products/bestsellers/
+---
+
+
+<div id="wj-bestsellers" class="container">
+  <div class="row">
+    {% for item in site.data.bestsellers.de.products %}
+    <div class="col-md-4">
+      <div class="blog-entry">
+        <a href="{{item.link}}" class="blog-img" style="background-image: url({{item.image}});">
+        </a>
+        <div class="desc">
+          <h3><a href="{{item.link}}">{{item.name}}</a></h3>
+          <p>{{item.description}}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <!-- <div class="col-md-4">
+      <div class="blog-entry">
+        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+          <p class="date">
+            <span>31</span>
+            <span>Jan. 2017</span>
+          </p>
+        </a>
+        <div class="desc">
+          <h3><a href="blog.html">live better get to know your medical technology</a></h3>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          <p><a href="#">Read more <i class="icon-arrow-right3"></i></a></p>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+</div>
+</div>
