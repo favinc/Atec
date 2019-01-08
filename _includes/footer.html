@@ -11,22 +11,22 @@
 				<div class="col-md-3 col-md-push-1 wj-widget">
 					<h3>Quick Links</h3>
 					<ul class="wj-footer-links">
-						<li><a href="#"><i class="icon-check"></i> Department</a></li>
-						<li><a href="#"><i class="icon-check"></i> Blog</a></li>
-						<li><a href="#"><i class="icon-check"></i> Contact</a></li>
-						<li><a href="#"><i class="icon-check"></i> Terms</a></li>
-						<li><a href="#"><i class="icon-check"></i> Shop</a></li>
+						{% for item in site.data.main.menus %}
+						{% if item.link != '#' %}
+						<li><a href="{{item.link}}"><i class="icon-check"></i> {{item.title}}</a></li>
+						{% endif %}
+						{% endfor %}
+
 					</ul>
 				</div>
 
 				<div class="col-md-3 wj-widget">
-					<h3>Our Services</h3>
+					<h3>Our Products</h3>
 					<ul class="wj-footer-links">
-						<li><a href="#"><i class="icon-check"></i> Heart Surgery</a></li>
-						<li><a href="#"><i class="icon-check"></i> Surgical Treatment</a></li>
-						<li><a href="#"><i class="icon-check"></i> General Treatment</a></li>
-						<li><a href="#"><i class="icon-check"></i> Medical Treatment</a></li>
-						<li><a href="#"><i class="icon-check"></i> Help Desk</a></li>
+						{% for item in site.data.bestsellers.de.products limit: 5 %}
+						<li><a href="/products/bestsellers/"><i class="icon-check"></i> {{item.name}}</a></li>
+						{% endfor %}
+
 					</ul>
 				</div>
 
