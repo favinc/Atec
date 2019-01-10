@@ -87,6 +87,19 @@ img {
   img {
     opacity: 0.3;
   }
+
+  .copyright {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+  }
 }
 
 #wj-bestsellers {
