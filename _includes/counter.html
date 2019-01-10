@@ -7,7 +7,7 @@
 
           {% for item in site.data.main.counters.counter %}
           <div class="col-md-3 col-sm-6 text-center animate-box">
-            <span class="icon"><i class="flaticon-healthy"></i></span>
+            <span class="icon"><i class="flaticon-{{item.icon}}"></i></span>
             <span class="wj-counter js-counter" data-from="0" data-to="{{item.number}}" data-speed="5000" data-refresh-interval="50"></span>
             <span class="wj-counter-label">{{item.title}}</span>
           </div>

@@ -88,16 +88,19 @@ counters:
   counter:
     - title: Years of Experience
       number: 50
+      icon: pair-of-molars
 
     - title: Customer Satisfaction
       number: 100
+      icon: heart
 
     - title: Complaint Rate
       number: 0.000006
+      icon: pills
 
     - title: Delivery on Time
       number: 100
-
+      icon: sign
 
 testimonials:
   headline: What do our partners say?
