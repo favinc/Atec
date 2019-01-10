@@ -72,6 +72,28 @@ products:
       description: Komplettes Patienten-Zahnaufhellungssytem mit drei Komponenten für mehrmalige und einfache Anwendung in der Zahnarztpraxis.
 
 
+catalogs:
+  headline: Current Catalogs of our Products
+  tagline: If you have questions about individual catalogs/products, you are welcome to call us and we will help you as soon as possible.
+  catalog:
+    - image: /images/catalogs/RSZ.png
+      link: /docs/Restaurative_Zahnheilkunde.pdf
+
+    - image: /images/catalogs/dental-katalog.png
+      link: /docs/SSWhite Katalog.pdf
+
+    - image: /images/catalogs/EndoBook_bild.png
+      link: /docs/EndoBook 2018.pdf
+
+    - image: /images/catalogs/Bleaching-Set.jpeg
+      link: /docs/Bleach.pdf
+
+    - image: /images/catalogs/5.png
+      link: /docs/Diamanten.pdf
+
+    - image: /images/catalogs/OneCurve_BIld.png
+      link: /docs/OneCurve.pdf
+
 
 team:
   headline: The People Behind Atec

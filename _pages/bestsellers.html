@@ -38,4 +38,24 @@ permalink: /products/bestsellers/
   </div>
 
 </div>
+
+
+<div id="wj-catalogs" class="container  py-lg">
+  <div class="row animate-box">
+    <div class="col-md-6 col-md-offset-3 text-center wj-heading">
+      <h2>{{site.data.main.catalogs.headline}}</h2>
+      <p>{{site.data.main.catalogs.tagline}}</p>
+    </div>
+  </div>
+  <div class="row">
+    {% for item in site.data.main.catalogs.catalog %}
+    <div class="col-md-4">
+      <div class="blog-entry">
+        <a href="{{item.link}}" class="" target="_blank">
+          <div class="cat-img" style="background-image: url({{item.image}});"></div>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>

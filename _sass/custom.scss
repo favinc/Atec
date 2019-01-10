@@ -119,6 +119,16 @@ img {
   }
 }
 
+#wj-catalogs {
+  .cat-img {
+    min-height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
 #wj-signup {
 
   .modal-dialog {
