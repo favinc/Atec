@@ -2,14 +2,14 @@
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-6 col-md-offset-3 text-center wj-heading">
-        <h2>{{site.data.main.testimonials.headline}}</h2>
-        <p>{{site.data.main.testimonials.tagline}}</p>
+        <h2>{{site.data.main.partners.headline}}</h2>
+        <p>{{site.data.main.partners.tagline}}</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 animate-box">
         <div class="owl-carousel">
-          {% for item in site.data.main.testimonials.reviews %}
+          {% for item in site.data.main.partners.reviews %}
           <div class="item">
             <div class="testimony text-center">
               <span class="img-user" style="background-image: url({{site.baseurl}}{{item.image}});"></span>
@@ -17,6 +17,7 @@
               <span class="company"><small>{{item.company}}</small></span>
               <blockquote>
                 <p>"{{item.review}}"</p>
+                <p><a href="{{item.link}}">{{item.text}}</a></p>
                 <p class="color"><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span></p>
               </blockquote>
             </div>
