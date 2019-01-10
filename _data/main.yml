@@ -132,8 +132,8 @@ partners:
      company: Micro-Mega Area Manager für Deutschland und Österreich
      image: /images/11.png
      review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
-     text: Micro-Mega
-     link: https://micro-mega.com/
+     text: SS White Dental
+     link: https://www.sswhitedental.com/index.php/
 
    - name: Kristof Van Den Bosch
      company: Sales Manager Eupope SS WHITE BURS, INC.
@@ -148,6 +148,13 @@ partners:
      review: Seit mehr als 20 Jahren verbindet uns eine erfolgreiche Zusammenarbeit mit der Firma atec. Als Hersteller von Implantatstiften und Wurzelaufbauschrauben aus Titan können wir auf eine Vielzahl von gemeinsamen, durchgeführten Projekten sehen, in welchen wir die Firma atec als kompetenten und zuverlässigen Partner kennenlernen durften. Gegenseitiges Vertrauen und gute gegenseitige Abstimmung prägt die Zusammenarbeit bis heute. Wir freuen uns weiterhin auf eine partnerschaftliche, freundliche Geschäftsbeziehung und auf zukünftige Projekte!
      text: Kümmerle
      link: https://www.kuemmerle.com/
+
+   - name: Steco
+     company: Steco
+     image: /images/steco_c100_m50_Rand weiß.jpg
+     review: Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne.
+     text: Steco
+     link: https://steco.de/guided-endo/
 
 
 
