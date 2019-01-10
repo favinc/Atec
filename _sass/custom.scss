@@ -34,6 +34,15 @@ img {
   top: -20px;
 }
 
+.wj-nav ul li.has-dropdown .dropdown {
+  top: 25px !important;
+}
+
+.wj-nav .menu-wrap {
+  background: darken($brand-color, 10%);
+}
+
+
 #wj-services {
   .services {
   border: none;

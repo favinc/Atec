@@ -43,12 +43,12 @@ body {
       content: ""; }
 
 a {
-  color: #3c97e8;
+  color: $brand-color;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #3c97e8;
+    color: $brand-color;
     outline: none;
     text-decoration: none; }
 
@@ -62,15 +62,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #3c97e8; }
+  background: $brand-color; }
 
 ::-moz-selection {
   color: #fff;
-  background: #3c97e8; }
+  background: $brand-color; }
 
 ::selection {
   color: #fff;
-  background: #3c97e8; }
+  background: $brand-color; }
 
 .wj-nav {
   width: 100%;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
         vertical-align: middle;
         height: 60px;
         font-size: 24px;
-        color: #69cb6a; }
+        color: $brand-color; }
     .wj-nav .num p, .wj-nav .loc p {
       padding-left: 80px;
       font-weight: 300; }
@@ -126,14 +126,14 @@ h1, h2, h3, h4, h5, h6, figure {
         text-align: left !important;
         margin-bottom: 20px; } }
     .wj-nav #wj-logo a {
-      color: #3c97e8;
+      color: $brand-color;
       position: relative; }
       .wj-nav #wj-logo a span {
-        color: #69cb6a; }
+        color: $brand-color; }
       .wj-nav #wj-logo a i {
         font-size: 34px; }
   .wj-nav .menu-wrap {
-    background: #3c97e8;
+    background: $brand-color;
     padding: 15px 0;
     width: 100%; }
   .wj-nav .menu-1 {
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6, figure {
         -o-transition: 0.5s;
         transition: 0.5s; }
         .wj-nav ul li a:hover, .wj-nav ul li a:focus, .wj-nav ul li a.active {
-          color: #69cb6a; }
+          color: $brand-color; }
       .wj-nav ul li.has-dropdown {
         position: relative; }
         .wj-nav ul li.has-dropdown .dropdown {
@@ -215,9 +215,9 @@ h1, h2, h3, h4, h5, h6, figure {
               .wj-nav ul li.has-dropdown .dropdown li a:hover {
                 color: #fff; }
         .wj-nav ul li.has-dropdown:hover a, .wj-nav ul li.has-dropdown:focus a {
-          color: #69cb6a; }
+          color: $brand-color; }
       .wj-nav ul li.active > a {
-        color: #69cb6a; }
+        color: $brand-color; }
   .wj-nav .btn-cta {
     margin-bottom: 0;
     text-align: right;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6, figure {
           text-transform: uppercase;
           letter-spacing: 2px; }
           #wj-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-            background: #3c97e8 !important;
+            background: $brand-color !important;
             -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
             -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
             box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important; }
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 25%;
   display: inline-block;
-  background: #3c97e8;
+  background: $brand-color;
   border-right: 1px solid rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 768px) {
     .intro-grid {
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
-  background-color: #69cb6a;
+  background-color: $brand-color;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -522,7 +522,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .services .icon {
     width: 70px;
     height: 70px;
-    background: #3c97e8;
+    background: $brand-color;
     display: table;
     text-align: center;
     margin-bottom: 30px;
@@ -548,7 +548,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .services .desc {
     padding-left: 90px; }
   .services:hover .icon, .services:focus .icon {
-    background: #69cb6a; }
+    background: $brand-color; }
     .services:hover .icon i, .services:focus .icon i {
       color: #fff; }
 
@@ -772,7 +772,7 @@ h1, h2, h3, h4, h5, h6, figure {
       display: inline-block;
       zoom: 1;
       *display: inline;
-      color: #3c97e8;
+      color: $brand-color;
       padding-left: 10px;
       padding-right: 10px; }
       .wj-social-icons li a i {
@@ -784,7 +784,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding-right: 10px; }
     .contact-info-wrap p span i {
       font-size: 20px;
-      color: #3c97e8; }
+      color: $brand-color; }
 
 .wj-heading {
   margin-bottom: 5em; }
@@ -828,7 +828,7 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #000; }
       .blog-img .date span:first-child {
         font-size: 30px;
-        background: #3c97e8;
+        background: $brand-color;
         color: #fff; }
       .blog-img .date span:last-child {
         padding: .8em 1em;
@@ -867,18 +867,18 @@ h1, h2, h3, h4, h5, h6, figure {
       -ms-border-radius: 2px;
       border-radius: 2px; }
     .pagination li a:hover, .pagination li a:focus {
-      background: #3c97e8;
+      background: $brand-color;
       color: #fff;
-      border: 1px solid #3c97e8; }
+      border: 1px solid $brand-color; }
     @media screen and (max-width: 768px) {
       .pagination li a {
         padding: 7px 15px; } }
   .pagination li.active a {
-    background: #3c97e8; }
+    background: $brand-color; }
     .pagination li.active a:hover, .pagination li.active a:focus {
-      background: #3c97e8;
+      background: $brand-color;
       color: #fff;
-      border: 1px solid #3c97e8; }
+      border: 1px solid $brand-color; }
 
 .col-paddingbottom {
   padding-bottom: 4em !important; }
@@ -935,7 +935,7 @@ h1, h2, h3, h4, h5, h6, figure {
           left: 0; }
         .sidebar .side .list li a .badge {
           position: absolute;
-          background: #3c97e8;
+          background: $brand-color;
           top: 5px;
           right: 0;
           font-weight: 300; }
@@ -1059,7 +1059,7 @@ h1, h2, h3, h4, h5, h6, figure {
         display: table-cell;
         vertical-align: middle;
         font-size: 16px;
-        color: #69cb6a; }
+        color: $brand-color; }
   .doctor h2 {
     margin-bottom: 10px; }
   .doctor h3 {
@@ -1086,7 +1086,7 @@ h1, h2, h3, h4, h5, h6, figure {
     position: relative; }
     .doctor .contact-info p i {
       font-size: 24px;
-      color: #69cb6a;
+      color: $brand-color;
       padding-right: 20px; }
 
 .schedule {
@@ -1101,7 +1101,7 @@ h1, h2, h3, h4, h5, h6, figure {
     left: 2em; }
     .schedule .icon i {
       font-size: 34px;
-      color: #3c97e8; }
+      color: $brand-color; }
   .schedule .desc {
     padding-left: 60px; }
     .schedule .desc span {
@@ -1175,7 +1175,7 @@ h1, h2, h3, h4, h5, h6, figure {
       -o-transition: 0.3s;
       transition: 0.3s; }
       .department-wrap .department-info .block:hover {
-        background: #69cb6a; }
+        background: $brand-color; }
         .department-wrap .department-info .block:hover h2 a {
           color: #fff; }
         .department-wrap .department-info .block:hover span {
@@ -1203,7 +1203,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 10px;
     background: #fafafa; }
     .plan li:hover {
-      background: #69cb6a; }
+      background: $brand-color; }
       .plan li:hover span {
         color: #fff; }
         .plan li:hover span:last-child {
@@ -1220,7 +1220,7 @@ h1, h2, h3, h4, h5, h6, figure {
       .plan li span:last-child {
         width: 15%;
         text-align: right;
-        color: #3c97e8; }
+        color: $brand-color; }
 
 .testimony {
   display: block;
@@ -1344,7 +1344,7 @@ h1, h2, h3, h4, h5, h6, figure {
         color: rgba(255, 255, 255, 0.9);
         text-decoration: none; }
         #wj-footer .wj-footer-links li a i {
-          color: #3c97e8;
+          color: $brand-color;
           padding-right: 8px; }
         #wj-footer .wj-footer-links li a:hover {
           text-decoration: none; }
@@ -1403,7 +1403,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-box-shadow: none;
     box-shadow: none; }
   #wj-footer .form-group #btn-submit {
-    background: #3c97e8;
+    background: $brand-color;
     color: #fff; }
   #wj-footer .copyright {
     background: #2b3b4b;
@@ -1523,7 +1523,7 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 50px;
     height: 50px;
     display: table;
-    background: #3c97e8;
+    background: $brand-color;
     color: #fff;
     text-align: center;
     -webkit-border-radius: 50%;
@@ -1655,19 +1655,19 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none !important; }
 
 .btn-primary {
-  background: #69cb6a;
+  background: $brand-color;
   color: #fff;
-  border: 2px solid #69cb6a; }
+  border: 2px solid $brand-color; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #7cd27d !important;
-    border-color: #7cd27d !important; }
+    background: lighten($brand-color, 10%)!important;
+    border-color: lighten($brand-color, 10%) !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #69cb6a;
-    border: 2px solid #69cb6a; }
+    color: $brand-color;
+    border: 2px solid $brand-color; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #69cb6a;
-      color: #69cb6a; }
+      background: lighten($brand-color, 10%);
+      color: $brand-color; }
 
 .btn-success {
   background: #5cb85c;
@@ -1775,7 +1775,7 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #3c97e8; }
+    border-color: $brand-color; }
 
 .row-pb-md {
   padding-bottom: 4em !important; }
