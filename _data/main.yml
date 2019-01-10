@@ -82,6 +82,22 @@ team:
   <p>Our System is along the legal rights and regulation of medical products, as well as the international Norm ISO 13485</p><p><strong>- Your atec team</strong></p>"
 
 
+counters:
+  headline:
+  tagline:
+  counter:
+    - title: Years of Experience
+      number: 50
+
+    - title: Customer Satisfaction
+      number: 100
+
+    - title: Complaint Rate
+      number: 0.000006
+
+    - title: Delivery on Time
+      number: 100
+
 
 testimonials:
   headline: What do our partners say?
@@ -101,6 +117,8 @@ testimonials:
      company: Geschäftsführer der Gebrüder Kümmerle GmbH, Präzisionsdrehteile
      image: /images/staff-4.jpg
      review: Seit mehr als 20 Jahren verbindet uns eine erfolgreiche Zusammenarbeit mit der Firma atec. Als Hersteller von Implantatstiften und Wurzelaufbauschrauben aus Titan können wir auf eine Vielzahl von gemeinsamen, durchgeführten Projekten sehen, in welchen wir die Firma atec als kompetenten und zuverlässigen Partner kennenlernen durften. Gegenseitiges Vertrauen und gute gegenseitige Abstimmung prägt die Zusammenarbeit bis heute. Wir freuen uns weiterhin auf eine partnerschaftliche, freundliche Geschäftsbeziehung und auf zukünftige Projekte!
+
+
 
 
 footer:
