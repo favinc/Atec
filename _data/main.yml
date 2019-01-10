@@ -128,14 +128,14 @@ partners:
   headline: Our Partners
   tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
   reviews:
-   - name: Dr. Stephan Gruner
+   - name: Kristof Van Den Bosch
      company: Micro-Mega Area Manager für Deutschland und Österreich
      image: /images/11.png
      review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
      text: SS White Dental
      link: https://www.sswhitedental.com/index.php/
 
-   - name: Kristof Van Den Bosch
+   - name: Dr. Stephan Gruner
      company: Sales Manager Eupope SS WHITE BURS, INC.
      image: /images/Bild.png
      review: For 10 years the company atec Dental has been selling our SS White products with high product identification and professional competence. As a target-oriented, committed and trustworthy sales partner, atec Dental is indispensable for us on the German market
@@ -151,10 +151,10 @@ partners:
 
    - name: Steco
      company: Steco
-     image: /images/steco_c100_m50_Rand weiß.jpg
-     review: Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne.
+     image: /images/steco.png
+     review: "Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne."
      text: Steco
-     link: https://steco.de/guided-endo/
+     link: "https://steco.de/guided-endo/"
 
 
 
