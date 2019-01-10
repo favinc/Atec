@@ -5,10 +5,10 @@ de:
   - question: Hat atec alle wichtigen Zertifikate?
     answer: "Uns ist es wichtig, dass wir ein seriöser Partner für unsere Kunden sind und diese sich auf uns verlassen können. Darum sind wir selbstverständlich mit allen wichtigen Zertifikaten ausgezeichnet.
     <ol>
-    <li><a href=''>Qualitätsmanagementsystem</a></li>
-    <li><a href=''>EG-Zertifikat</a></li>
+    <li><a target='_blank' href='/docs/D1046100014_D 2018.pdf'>Qualitätsmanagementsystem</a></li>
+    <li><a target='_blank' href='/docs/D1046100012_D.pdf'>EG-Zertifikat</a></li>
     </ol>"
-    
+
   - question: Wie erhalte ich meine Bestellungen?
     answer: Nachdem Sie bei uns per Mail, Fax oder Anruf Ihre gewünschten Produkte bestellt haben, dann werden diese zeitnah mit versichertem Paketdienst zu Ihnen gesendet. Falls Sie Informationen zum Status/Standort Ihrer Bestellung haben, können Sie diesen jederzeit bei uns abfragen.
 
