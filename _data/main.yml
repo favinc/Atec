@@ -172,3 +172,180 @@ footer:
   privacy:
     text: Privacy
     link: /privacy-policy/
+
+
+
+de:
+  info:
+    phone: +49-7664-9300-22
+    email: info@atec-dental.de
+
+
+
+  menus:
+    - title: Zuhause
+      link: /de/
+
+    - title: Über uns
+      link: /uber-uns/
+
+    - title: Produkte
+      link: '#'
+      sub:
+        - title: Bestsellers
+          link: /produkte/bestsellers/
+
+    - title: Unsere Partner
+      link: /unsere-partner/
+
+    - title: FAQs
+      link: /faqs-de/
+
+    - title: Angebote
+      link: /angebote/
+
+
+  landing:
+    headline: Experience combined with Quality
+    tagline:
+    description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
+    button: Know More
+    link: '#'
+
+
+  offerings:
+    headline: What can we offer?
+    tagline: Our core competence
+    icons:
+      - title: Experience for 50 Years
+        description: The People behind atec, give their best, to offer you as a dentist and your patients, the best possible Service and that for 50 Years
+        icon: icon-user
+
+      - title: Committed Employees
+        description: Our long-term work experience as a team at atec, is one of our big strength
+        icon: icon-heart
+
+      - title: International Partner
+        description: Europe, USA and Switzerland we have strong Partner we can rely on and work together
+        icon: icon-plane
+
+      - title: Long-standing Clients
+        description: For us is quality as well as advice our mission, to give our clients the best experience and success in their day to day work
+        icon: icon-plus
+
+
+  products:
+    headline: Our Products
+    tagline:
+    description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give.
+    button: Know More
+    link: '#'
+    qualities:
+      - title: Metallfreie Wurzelstifte
+        description: Die Wurzelstifte aus Glasfaser und Zirkonoxid bieten eine hervorragende Alternative, wenn hochästhetische, metallfreie Restaurationen erwünscht sind.
+      - title: Wurzelstfite aus Titan
+        description: Das Endofix plus System steht für erfolgreiche, jahrelange Anwendung in der Zahnmedizin und zeichnet sich durch Sicherheit für Patienten und Zahnarzt aus.
+      - title: Bleaching
+        description: Komplettes Patienten-Zahnaufhellungssytem mit drei Komponenten für mehrmalige und einfache Anwendung in der Zahnarztpraxis.
+
+
+  catalogs:
+    headline: Current Catalogs of our Products
+    tagline: If you have questions about individual catalogs/products, you are welcome to call us and we will help you as soon as possible.
+    catalog:
+      - image: /images/catalogs/RSZ.png
+        link: /docs/Restaurative_Zahnheilkunde.pdf
+
+      - image: /images/catalogs/dental-katalog.png
+        link: /docs/SSWhite Katalog.pdf
+
+      - image: /images/catalogs/EndoBook_bild.png
+        link: /docs/EndoBook 2018.pdf
+
+      - image: /images/catalogs/Bleaching-Set.jpeg
+        link: /docs/Bleach.pdf
+
+      - image: /images/catalogs/5.png
+        link: /docs/Diamanten.pdf
+
+      - image: /images/catalogs/OneCurve_BIld.png
+        link: /docs/OneCurve.pdf
+
+
+  team:
+    headline: The People Behind Atec
+    tagline:
+    description: "<p>As a family-based company with decades of experience and intense contact to dentist’s and scientist’s, we learn from our past for the future. That defines our most important goal: to satisfy our clients and build a trustful and long-term partnership. Our competent, motivated and trusting team engage with big impact our company philosophy.</p>
+    <p>That philosophy is built upon transparent and fast communication, that enable us the chance to help our clients the best possible way. Our work is done if our clients are happy and satisfied with our service, our team members and our products and not before.</p>
+    <p>Our Quality management is focused on the satisfaction of our clients and their patients, and to improve existing process and built new smarter solutions.</p>
+    <p>Our System is along the legal rights and regulation of medical products, as well as the international Norm ISO 13485</p><p><strong>- Your atec team</strong></p>"
+
+
+  counters:
+    headline:
+    tagline:
+    counter:
+      - title: Years of Experience
+        number: 50
+        icon: pair-of-molars
+
+      - title: Customer Satisfaction
+        number: 100
+        icon: heart
+
+      - title: Complaint Rate
+        number: 0.000006
+        icon: pills
+
+      - title: Delivery on Time
+        number: 100
+        icon: sign
+
+  partners:
+    headline: Our Partners
+    tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+    reviews:
+     - name: Kristof Van Den Bosch
+       company: Micro-Mega Area Manager für Deutschland und Österreich
+       image: /images/11.png
+       review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
+       text: Micro-Mega
+       link: https://micro-mega.com/?lang=en
+
+     - name: Dr. Stephan Gruner
+       company: Sales Manager Eupope SS WHITE BURS, INC.
+       image: /images/Bild.png
+       review: For 10 years the company atec Dental has been selling our SS White products with high product identification and professional competence. As a target-oriented, committed and trustworthy sales partner, atec Dental is indispensable for us on the German market
+       text: SS White Dental
+       link: https://www.sswhitedental.com/index.php/
+
+     - name: Berthold Kümmerle
+       company: Geschäftsführer der Gebrüder Kümmerle GmbH, Präzisionsdrehteile
+       image: /images/13.png
+       review: Seit mehr als 20 Jahren verbindet uns eine erfolgreiche Zusammenarbeit mit der Firma atec. Als Hersteller von Implantatstiften und Wurzelaufbauschrauben aus Titan können wir auf eine Vielzahl von gemeinsamen, durchgeführten Projekten sehen, in welchen wir die Firma atec als kompetenten und zuverlässigen Partner kennenlernen durften. Gegenseitiges Vertrauen und gute gegenseitige Abstimmung prägt die Zusammenarbeit bis heute. Wir freuen uns weiterhin auf eine partnerschaftliche, freundliche Geschäftsbeziehung und auf zukünftige Projekte!
+       text: Kümmerle
+       link: https://www.kuemmerle.com/
+
+     - name: Dipl.-Ing. Sascha Metzner
+       company: Leiter Forschung und Entwicklung, Regulatory Affairs
+       image: /images/steco.png
+       review: "Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne."
+       text: Steco
+       link: "https://steco.de/guided-endo/"
+
+
+
+  footer:
+    headline: Atec
+    logo:
+    tagline:
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis placeat, iusto fugiat minima minus explicabo possimus eius deserunt consequuntur.
+    button: Know More
+    link: '#'
+
+    terms:
+      text: Impressum
+      link: /impressum/
+    privacy:
+      text: Datenschutzerklärung
+      link: /datenschutzerklärung/

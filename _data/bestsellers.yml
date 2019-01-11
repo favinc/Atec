@@ -1,3 +1,41 @@
+title:
+tagline:
+products:
+  - name: WSR
+    description: Dichter Verschluss des periapikalen Wurzelkanals bei der Wurzelspitzenresektion mit apikalem Verschlussstift oder Stabilisationsstift.
+    image: /images/products/Bild1.jpg
+
+  - name: ZIRKONOXID
+    description: Die Wurzelstifte aus Zirkonoxid bieten eine hochästhetische, metallfreie und biokompatible Restauration der Zähne.
+    image: /images/products/Screen-Shot-2018-11-30-at-10.jpg
+
+  - name: GLASFASER
+    description: Die Wurzelstifte aus Glasfaser bieten eine dentinähnliche Elastizität, wo eine Zahnfraktur nahezu ausgeschlossen ist.
+    image: /images/products/Screen-Shot-2018-12-07-at-00_002.jpg
+
+  - name: ENDOFIX®
+    description: Endofix® Schrauben und Stifte aus Titan eignen sich für die stark zerstörten Zahnkronen und zur Verstärkung devitaler Zähne.
+    image: /images/products/Screen-Shot-2018-12-07-at-00_004.jpg
+
+  - name: MICROMEGA®ONE CURVE
+    description: One Curve ist ein Einmalinstrument für die Wurzelbehandlung in kontinuierlicher Rotation. Durch eine patentierte Wärmebehandlung entsteht eine erhöhte Flexibilität und Bruchresistenz. Über dies ist die Feile vorbiegbar..
+    image: /images/products/Screen-Shot-2018-12-07-at-00.jpg
+
+  - name: MICROMEGA® 2SHAPE
+    description: 2Shape ist eine Sequenz mit 2 Aufbereitungsinstrumenten in kontinuierlicher Rotation, die der Wärmebehandlung T•Wire unterzogen wurden. Die Flexibilität des Instruments gewährleistet eine erhöhte Bruchfestigkeit.
+    image: /images/products/Screen-Shot-2018-12-07-at-00_006.jpg
+
+  - name: SS WHITE® GREAT WHITE® GOLD
+    description: Die schnellen Hartmetallinstrumente für die Entfernung von Kronen und Füllungen sowie effizienten Zugang zum Wurzelkanal.
+    image: /images/products/Screen-Shot-2018-12-07-at-00_005.jpg
+
+  - name: SS WHITE® FISSUROTOMY®
+    description: Die substanzschonende Lösung bei versteckter Fissurenkaries erfolgt weitgehend schmerzfrei bis zur Schmelz-Dentin-Grenze.
+    image: /images/products/Screen-Shot-2018-12-07-at-00_003.jpg
+
+
+
+
 de:
   title:
   tagline:

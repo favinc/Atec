@@ -1,3 +1,21 @@
+en:
+  - question: Wie informiere ich mich über Produkte?
+    answer: Sollten Sie Fragen zu einzelnen Produkten haben oder wollen mehr Informationen für eine Bestellung, senden Sie uns eine E-Mail mit allen wichtigen Angaben und wir senden Ihnen alles zu. Sind Sie sich unsicher welche Produkte Sie brauchen, beraten wir Sie gerne weiter.
+
+  - question: Hat atec alle wichtigen Zertifikate?
+    answer: "Uns ist es wichtig, dass wir ein seriöser Partner für unsere Kunden sind und diese sich auf uns verlassen können. Darum sind wir selbstverständlich mit allen wichtigen Zertifikaten ausgezeichnet.
+    <ol>
+    <li><a target='_blank' href='/docs/D1046100014_D 2018.pdf'>Qualitätsmanagementsystem</a></li>
+    <li><a target='_blank' href='/docs/D1046100012_D.pdf'>EG-Zertifikat</a></li>
+    </ol>"
+
+  - question: Wie erhalte ich meine Bestellungen?
+    answer: Nachdem Sie bei uns per Mail, Fax oder Anruf Ihre gewünschten Produkte bestellt haben, dann werden diese zeitnah mit versichertem Paketdienst zu Ihnen gesendet. Falls Sie Informationen zum Status/Standort Ihrer Bestellung haben, können Sie diesen jederzeit bei uns abfragen.
+
+  - question: Wo finde ich atec außer im Internet?
+    answer: Unser Headoffice ist in Ebringen, standortunabhängig beraten wir Sie gerne per Mail oder Telefon.
+
+
 de:
   - question: Wie informiere ich mich über Produkte?
     answer: Sollten Sie Fragen zu einzelnen Produkten haben oder wollen mehr Informationen für eine Bestellung, senden Sie uns eine E-Mail mit allen wichtigen Angaben und wir senden Ihnen alles zu. Sind Sie sich unsicher welche Produkte Sie brauchen, beraten wir Sie gerne weiter.
