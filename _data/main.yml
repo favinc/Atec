@@ -64,12 +64,12 @@ products:
   button: Know More
   link: '#'
   qualities:
-    - title: Metallfreie Wurzelstifte
-      description: Die Wurzelstifte aus Glasfaser und Zirkonoxid bieten eine hervorragende Alternative, wenn hochästhetische, metallfreie Restaurationen erwünscht sind.
-    - title: Wurzelstfite aus Titan
-      description: Das Endofix plus System steht für erfolgreiche, jahrelange Anwendung in der Zahnmedizin und zeichnet sich durch Sicherheit für Patienten und Zahnarzt aus.
+    - title: Metal-free dental post
+      description: The root posts made of glass fiber and zirconium oxide offer an excellent alternative when highly esthetic, metal-free restorations are desired.
+    - title: Titanium root fritters
+      description: The Endofix plus system stands for successful, long-standing use in dentistry and is characterized by safety for patients and dentist.
     - title: Bleaching
-      description: Komplettes Patienten-Zahnaufhellungssytem mit drei Komponenten für mehrmalige und einfache Anwendung in der Zahnarztpraxis.
+      description: Complete patient teeth whitening system with three components for multiple and easy use in the dental practice.
 
 
 catalogs:
@@ -187,26 +187,26 @@ de:
       link: /de/
 
     - title: Über uns
-      link: /uber-uns/
+      link: /de/about/
 
     - title: Produkte
       link: '#'
       sub:
         - title: Bestsellers
-          link: /produkte/bestsellers/
+          link: /de/products/bestsellers/
 
     - title: Unsere Partner
-      link: /unsere-partner/
+      link: /de/partners/
 
     - title: FAQs
-      link: /faqs-de/
+      link: /de/faqs/
 
     - title: Angebote
-      link: /angebote/
+      link: /de/sales/
 
 
   landing:
-    headline: Experience combined with Quality
+    headline: Experience combined with QualityErfahrung
     tagline:
     description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
     button: Know More
@@ -275,29 +275,28 @@ de:
   team:
     headline: The People Behind Atec
     tagline:
-    description: "<p>As a family-based company with decades of experience and intense contact to dentist’s and scientist’s, we learn from our past for the future. That defines our most important goal: to satisfy our clients and build a trustful and long-term partnership. Our competent, motivated and trusting team engage with big impact our company philosophy.</p>
-    <p>That philosophy is built upon transparent and fast communication, that enable us the chance to help our clients the best possible way. Our work is done if our clients are happy and satisfied with our service, our team members and our products and not before.</p>
-    <p>Our Quality management is focused on the satisfaction of our clients and their patients, and to improve existing process and built new smarter solutions.</p>
-    <p>Our System is along the legal rights and regulation of medical products, as well as the international Norm ISO 13485</p><p><strong>- Your atec team</strong></p>"
+    description: "<p>Als Familienunternehmen mit jahrzehntelanger Erfahrung und intensiven Kontakten zu Praxis und Wissenschaft lernen wir aus der Vergangenheit für die Zukunft. Daher ist es unser oberstes Ziel, unsere Kunden zufriedenzustellen und mit ihnen eine langfristige und vertrauensvolle Partnerschaft einzugehen. </p>
+    <p>Unser kompetentes, motiviertes und verantwortungsvolles Team beteiligt sich mit großem Engagement an unserer Firmenphilosophie. Dabei legen wir sehr großen Wert auf eine transparente und schnelle Kommunikation, die es ermöglicht, Lösungen anzubieten, die dem Kunden weiterhelfen. Erst wenn unsere gesamten Kunden zufrieden sind, wissen wir, dass wir unsere Arbeit auch in Ihrem Sinne gemacht haben.</p>
+    <p>Unser Qualitätsmanagement ist darauf ausgerichtet zum Wohl und im Interesse unserer Kunden und Patienten bestehende Prozesse ständig zu verbessern und neue Prozesse einzuführen. Unser System erfüllt natürlich zudem die Anforderungen der Gesetze und Bestimmungen von Medizinprodukten und darüber hinaus die Anforderungen der internationalen Norm ISO 13485.</p><p><strong>- Ihr atec-Team</strong></p>"
 
 
   counters:
     headline:
     tagline:
     counter:
-      - title: Years of Experience
+      - title: Langjährige Erfahrung
         number: 50
         icon: pair-of-molars
 
-      - title: Customer Satisfaction
+      - title: Kundenzufriedenheit
         number: 100
         icon: heart
 
-      - title: Complaint Rate
+      - title: Reklamationsquote
         number: 0.000006
         icon: pills
 
-      - title: Delivery on Time
+      - title: Termintreue
         number: 100
         icon: sign
 

@@ -1,7 +1,7 @@
 ---
 layout: default-de
 title: Über uns
-permalink: /uber-uns/
+permalink: /de/about/
 ---
 
 

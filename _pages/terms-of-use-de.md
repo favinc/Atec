@@ -1,7 +1,7 @@
 ---
 layout: page-de
 title: Impressum
-permalink: /impressum/
+permalink: /de/terms-of-use/
 ---
 
 ## Impressum

@@ -1,7 +1,7 @@
 ---
 layout: page-de
 title: Datenschutzerklärung
-permalink: /datenschutzerklärung/
+permalink: /de/privacy-policy/
 ---
 
 

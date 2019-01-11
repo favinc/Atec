@@ -1,7 +1,7 @@
 ---
 layout: default-de
 title: Unsere Partner
-permalink: /unsere-partner/
+permalink: /de/partners/
 ---
 
 {% include partners-de.html %}
