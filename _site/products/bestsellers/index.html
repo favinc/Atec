@@ -363,18 +363,20 @@
 
 				<div class="col-md-3 wj-widget">
 					<h3>Contact Us</h3>
-					<form class="contact-form">
+					<script type="text/javascript">var submitted=false;</script>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://www.atec-dental.de/de/thanks/';}"></iframe>
+					<form class="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLScVD4iQEYwRwNGBDtutj2CVpwFv7YE95jHf6C5xPi0Qq8sefA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 						<div class="form-group">
 							<label for="name" class="sr-only">Name</label>
-							<input type="name" class="form-control" id="name" placeholder="Name">
+							<input type="name" class="form-control" id="name" placeholder="Name" name="entry.2131016908" required>
 						</div>
 						<div class="form-group">
 							<label for="email" class="sr-only">Email</label>
-							<input type="email" class="form-control" id="email" placeholder="Email">
+							<input type="email" class="form-control" id="email" placeholder="Email" name="entry.1905016603" required>
 						</div>
 						<div class="form-group">
 							<label for="message" class="sr-only">Message</label>
-							<textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+							<textarea class="form-control" id="message" rows="3" placeholder="Message" name="entry.1038786707"></textarea>
 						</div>
 						<div class="form-group">
 							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Send Message">
