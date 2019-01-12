@@ -29,7 +29,7 @@ menus:
 
 landing:
   headline: Experience combined with Quality
-  tagline:
+  tagline: Dedicated and Motivated
   description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
   button: Know More
   link: '/about/'
@@ -204,9 +204,9 @@ de:
 
 
   landing:
-    headline: Experience combined with QualityErfahrung
-    tagline:
-    description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
+    headline: Erfahrung gepaart mit Qualität
+    tagline: Engagiert und Motiviert
+    description: Uns ist es wichtig, nicht nur eigene Produkte weiter zu verbessern. Sondern auch zusammen mit langfristigen, internationalen Partnern Ihnen als Zahnarzt die Arbeit zu vereinfachen.
     button: Know More
     link: '/de/about/'
 

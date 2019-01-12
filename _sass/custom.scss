@@ -30,6 +30,15 @@ img {
 
   }
 
+.wj-nav {
+  .top-menu {
+    padding: 0;
+  }
+  .num, .loc {
+    top: 30px;
+  }
+}
+
 .wj-nav .num .icon, .wj-nav .loc .icon{
   top: -20px;
 }
@@ -42,6 +51,12 @@ img {
   background: darken($brand-color, 10%);
 }
 
+
+#wj-hero {
+  .doc-holder {
+    color: $brand-color !important;
+  }
+}
 
 #wj-services {
   .services {
