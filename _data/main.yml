@@ -4,7 +4,6 @@ info:
   email: info@atec-dental.de
 
 
-
 menus:
   - title: Home
     link: /
@@ -33,7 +32,7 @@ landing:
   tagline:
   description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
   button: Know More
-  link: '#'
+  link: '/about/'
 
 
 offerings:
@@ -128,16 +127,16 @@ partners:
   headline: Our Partners
   tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
   reviews:
-   - name: Kristof Van Den Bosch
+   - name: Dr. Stephan Gruner
      company: Micro-Mega Area Manager für Deutschland und Österreich
-     image: /images/11.png
+     image: /images/Bild.png
      review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
      text: Micro-Mega
      link: https://micro-mega.com/?lang=en
 
-   - name: Dr. Stephan Gruner
+   - name: Kristof Van Den Bosch
      company: Sales Manager Eupope SS WHITE BURS, INC.
-     image: /images/Bild.png
+     image: /images/image11.png
      review: For 10 years the company atec Dental has been selling our SS White products with high product identification and professional competence. As a target-oriented, committed and trustworthy sales partner, atec Dental is indispensable for us on the German market
      text: SS White Dental
      link: https://www.sswhitedental.com/index.php/
@@ -151,11 +150,10 @@ partners:
 
    - name: Dipl.-Ing. Sascha Metzner
      company: Leiter Forschung und Entwicklung, Regulatory Affairs
-     image: /images/steco.png
+     image: /images/image1.jpg
      review: "Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne."
      text: Steco
      link: "https://steco.de/guided-endo/"
-
 
 
 footer:
@@ -210,7 +208,7 @@ de:
     tagline:
     description: It is important to us, to not only improve our products, but to work on the longterm goal to give you as a dentist the best Experience we can give. Hand in hand with our international partners
     button: Know More
-    link: '#'
+    link: '/de/about/'
 
 
   offerings:
@@ -301,19 +299,19 @@ de:
         icon: sign
 
   partners:
-    headline: Our Partners
+    headline: Unsere Partner
     tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
     reviews:
-     - name: Kristof Van Den Bosch
+     - name: Dr. Stephan Gruner
        company: Micro-Mega Area Manager für Deutschland und Österreich
-       image: /images/11.png
+       image: /images/Bild.png
        review: Ich kenne die Firma atec Dental nunmehr seit vielen Jahren als einen Vertriebspartner mit sehr engagierten Mitarbeitern.Vor allem der gute Kundenkontakt und der gute Service sind hier zu nennen. Ich weiß, dass unsere Produkte hier in sehr guten Händen sind und mit der entsprechenden Fachexpertise vertrieben werden.Zudem werden von atec Dental qualitativ hochwertige Workshops angeboten, die sich großer Beliebtheit erfreuen und intensives Wissen transportieren.
        text: Micro-Mega
        link: https://micro-mega.com/?lang=en
 
-     - name: Dr. Stephan Gruner
+     - name: Kristof Van Den Bosch
        company: Sales Manager Eupope SS WHITE BURS, INC.
-       image: /images/Bild.png
+       image: /images/image11.png
        review: For 10 years the company atec Dental has been selling our SS White products with high product identification and professional competence. As a target-oriented, committed and trustworthy sales partner, atec Dental is indispensable for us on the German market
        text: SS White Dental
        link: https://www.sswhitedental.com/index.php/
@@ -327,7 +325,7 @@ de:
 
      - name: Dipl.-Ing. Sascha Metzner
        company: Leiter Forschung und Entwicklung, Regulatory Affairs
-       image: /images/steco.png
+       image: /images/image1.jpg
        review: "Steco-system-technik aus Hamburg bietet ein umfassendes Portfolio verschiedener Bohrhülsen für die Implantologie. Gemeinsam mit dem Universitären Zentrum für Zahnmedizin der Universität Basel, Dental-Wings und atec Dental GmbH entwickelte Steco Bohrhülsen zur digitalen Planung und schablonengeführten Aufbereitung obliterierter Zähne."
        text: Steco
        link: "https://steco.de/guided-endo/"
