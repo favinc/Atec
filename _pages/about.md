@@ -7,3 +7,4 @@ permalink: /about/
 
 {% include team.html %}
 {% include counter.html %}
+{% include contact.html %}

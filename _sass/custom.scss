@@ -13,6 +13,9 @@ img {
   }
 }
 
+.overlay {
+  background: $brand-color !important;
+}
 
 .intro-slide {
   .flexslider .slides li {
@@ -153,4 +156,9 @@ img {
   .modal-dialog {
       margin: 200px auto;
   }
+}
+
+
+#mathTest {
+    padding: 15px 30px;
 }

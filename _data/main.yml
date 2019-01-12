@@ -123,6 +123,13 @@ counters:
       number: 100
       icon: sign
 
+
+contact:
+  headline: You want more information?
+  tagline: If you have any questions about products or our company. Just give us a call or send us a message, we will give our best to reach back to you as soon as possible.
+  trap: Solve this simple math Problem and the Submit button will appear
+
+
 partners:
   headline: Our Partners
   tagline: A small river named Duden flows by their place and supplies it with the necessary regelialia.
@@ -172,6 +179,11 @@ footer:
     link: /privacy-policy/
 
 
+###
+##
+# German version starts from here
+##
+###
 
 de:
   info:
@@ -297,6 +309,13 @@ de:
       - title: Termintreue
         number: 100
         icon: sign
+
+  contact:
+    headline: Sie wollen mehr Wissen?
+    tagline: WENN SIE NOCH FRAGEN ZU UNSEREN PRODUKTEN ODER UNSERER FIRMA GENERELL HABEN. RUFEN SIE AN ODER TEILEN SIE IHRE GEDANKEN MIT UNS PER MAIL. WIR FREUEN UNS IHNEN HELFEN ZU KÖNNEN!
+
+    trap: Lösen Sie dieses einfache mathematische Problem und die Schaltfläche Senden wird angezeigt
+
 
   partners:
     headline: Unsere Partner
