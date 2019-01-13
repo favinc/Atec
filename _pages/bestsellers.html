@@ -1,11 +1,17 @@
 ---
-layout: page
+layout: default
 title: Bestsellers
 permalink: /products/bestsellers/
 ---
 
 
-<div id="wj-bestsellers" class="container">
+<div id="wj-bestsellers" class="container py-lg">
+  <div class="row animate-box">
+    <div class="col-md-6 col-md-offset-3 text-center wj-heading">
+      <h2>{{site.data.bestsellers.title}}</h2>
+
+    </div>
+  </div>
   <div class="row">
     {% for item in site.data.bestsellers.products %}
     <div class="col-md-4">
@@ -36,10 +42,9 @@ permalink: /products/bestsellers/
     </div> -->
 
   </div>
-
 </div>
 
-
+<div class="bg-light">
 <div id="wj-catalogs" class="container py-lg">
   <div class="row animate-box">
     <div class="col-md-6 col-md-offset-3 text-center wj-heading">
@@ -58,4 +63,5 @@ permalink: /products/bestsellers/
     </div>
     {% endfor %}
   </div>
+</div>
 </div>

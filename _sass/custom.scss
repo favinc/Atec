@@ -17,6 +17,11 @@ img {
   background: $brand-color !important;
 }
 
+.bg-light {
+  background-color: #eaeaea;
+}
+
+
 .intro-slide {
   .flexslider .slides li {
       background-position: right !important;
@@ -29,6 +34,10 @@ img {
 .products {
   .flexslider .slides li {
         background-position: left !important;
+      }
+
+      h1, h2 {
+        color: white !important;
       }
 
   }
@@ -59,6 +68,8 @@ img {
   .doc-holder {
     color: $brand-color !important;
   }
+
+
 }
 
 #wj-services {
