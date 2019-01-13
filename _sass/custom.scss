@@ -173,3 +173,9 @@ img {
 #mathTest {
     padding: 15px 30px;
 }
+
+.gototop a {
+  &:hover {
+    background: lighten($brand-color, 10%);
+  }
+}

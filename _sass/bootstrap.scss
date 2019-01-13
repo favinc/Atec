@@ -348,7 +348,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #23527c;
+  color: lighten($brand-color, 10%);
   text-decoration: underline;
 }
 a:focus {
