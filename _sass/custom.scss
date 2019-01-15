@@ -166,6 +166,9 @@ img {
 
   .modal-dialog {
       margin: 200px auto;
+      @include media-query($on-palm) {
+        margin: 10px auto;
+      }
   }
 }
 
