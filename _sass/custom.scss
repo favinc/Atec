@@ -179,3 +179,8 @@ img {
     background: lighten($brand-color, 10%);
   }
 }
+
+.img-bg,
+.img-user {
+  background-position: top center;
+}
