@@ -74,7 +74,12 @@ img {
 
 #wj-services {
   .services {
-  border: none;
+    border: none;
+
+    @include media-query($on-palm) {
+      padding: 0;
+    }
+
   &:hover {
     box-shadow: none;
   }
