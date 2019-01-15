@@ -23,7 +23,7 @@
 				<div class="col-md-3 wj-widget">
 					<h3>Our Products</h3>
 					<ul class="wj-footer-links">
-						{% for item in site.data.bestsellers.de.products limit: 5 %}
+						{% for item in site.data.bestsellers.products limit: 5 %}
 						<li><a href="/products/bestsellers/"><i class="icon-check"></i> {{item.name}}</a></li>
 						{% endfor %}
 
