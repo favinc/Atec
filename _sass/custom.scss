@@ -148,12 +148,17 @@ img {
 #wj-bestsellers {
   .blog-img {
         background-size: contain;
-        bordeR: 1px solid whitesmoke;
+        border: 1px solid whitesmoke;
         border-bottom: none;
   }
 
   .blog-entry {
     box-shadow: 0 0 15px #e0e0e0;
+    height: 500px;
+  }
+
+  .desc {
+        border: none;
   }
 }
 
