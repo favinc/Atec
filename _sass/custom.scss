@@ -60,7 +60,7 @@ img {
 }
 
 .wj-nav .menu-wrap {
-  background: darken($brand-color, 10%);
+  background: $brand-color;
 }
 
 
@@ -111,6 +111,20 @@ img {
   .desc {
     padding-left: 0;
   }
+
+  .pd {
+    padding: 4rem 2rem 0 2rem;
+  }
+
+  .img-bg {
+    height: 650px;
+    @include media-query($on-palm) {
+      height: 300px;
+    }
+  }
+
+
+
 }
 
 #wj-testimonial {

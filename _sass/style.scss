@@ -163,7 +163,10 @@ h1, h2, h3, h4, h5, h6, figure {
         -o-transition: 0.5s;
         transition: 0.5s; }
         .wj-nav ul li a:hover, .wj-nav ul li a:focus, .wj-nav ul li a.active {
-          color: $brand-color; }
+          color: $brand-color;
+          color: white !important;
+          font-weight: bold !important;
+        }
       .wj-nav ul li.has-dropdown {
         position: relative; }
         .wj-nav ul li.has-dropdown .dropdown {
@@ -217,7 +220,10 @@ h1, h2, h3, h4, h5, h6, figure {
         .wj-nav ul li.has-dropdown:hover a, .wj-nav ul li.has-dropdown:focus a {
           color: $brand-color; }
       .wj-nav ul li.active > a {
-        color: lighten($brand-color, 10%); }
+        color: lighten($brand-color, 10%);
+        color: white !important;
+        font-weight: bold !important;
+      }
   .wj-nav .btn-cta {
     margin-bottom: 0;
     text-align: right;
