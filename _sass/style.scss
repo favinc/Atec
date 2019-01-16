@@ -164,8 +164,8 @@ h1, h2, h3, h4, h5, h6, figure {
         transition: 0.5s; }
         .wj-nav ul li a:hover, .wj-nav ul li a:focus, .wj-nav ul li a.active {
           color: $brand-color;
-          color: white !important;
-          font-weight: bold !important;
+          color: #ddd !important;
+          // font-weight: bold !important;
         }
       .wj-nav ul li.has-dropdown {
         position: relative; }

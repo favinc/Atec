@@ -37,7 +37,7 @@
 								<ul>
 									{% for item in site.data.main.menus %}
 									{% if item.sub %}
-										<li class="has-dropdown">
+										<li class="has-dropdown {% for sub in item.sub %}{% if page.url == sub.link %}active{% endif %}{% endfor %}">
 											 <a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
 										 <ul class="dropdown">
 											{% for sub in item.sub %}
