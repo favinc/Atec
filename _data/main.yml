@@ -167,7 +167,7 @@ footer:
   headline: Atec
   logo:
   tagline:
-  description: 'Thanks a lot for visiting our homepage, you can also visit the page of our Partner Company <a href="http://www.atec-med.de/" target="_blank">atec medizintechnik</a>'
+  description: 'Thanks a lot for visiting our homepage, you can also visit the page of our Partner Company <a href="http://www.atec-med.de/" target="_blank"> atec medizintechnik</a>'
   button: Know More
   link: '#'
 
@@ -355,7 +355,7 @@ de:
     headline: Atec
     logo:
     tagline:
-    description: 'Vielen Dank dass Sie unsere Homepage besuchen, hier finden Sie die Website unserer Partner Firma in Ebringen<a href="http://www.atec-med.de/" target="_blank">atec medizintechnik</a>'
+    description: 'Vielen Dank dass Sie unsere Homepage besuchen, hier finden Sie die Website unserer Partner Firma in Ebringen<a href="http://www.atec-med.de/" target="_blank"> atec medizintechnik</a>'
     button: Know More
     link: '#'
 
