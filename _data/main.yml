@@ -363,7 +363,7 @@ de:
 
     terms:
       text: Impressum
-      link: /impressum/
+      link: /de/terms-of-use/
     privacy:
       text: Datenschutzerklärung
-      link: /datenschutzerklärung/
+      link: /privacy-policy/
