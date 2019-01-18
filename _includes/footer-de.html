@@ -9,7 +9,7 @@
 					<p class="mt-sm">{{site.data.main.de.footer.description}}</p>
 				</div>
 				<div class="col-md-3 col-md-push-1 wj-widget">
-					<h3>Quick Links</h3>
+					<h3>Schnelle Links</h3>
 					<ul class="wj-footer-links">
 						{% for item in site.data.main.de.menus %}
 						{% if item.link != '#' %}
@@ -21,7 +21,7 @@
 				</div>
 
 				<div class="col-md-3 wj-widget">
-					<h3>Our Products</h3>
+					<h3>Unsere Produkte</h3>
 					<ul class="wj-footer-links">
 						{% for item in site.data.bestsellers.de.products limit: 5 %}
 						<li><a href="/de/products/bestsellers/"><i class="icon-check"></i> {{item.name}}</a></li>
@@ -31,7 +31,7 @@
 				</div>
 
 				<div class="col-md-3 wj-widget">
-					<h3>Contact Us</h3>
+					<h3>Kontakt</h3>
 					<script type="text/javascript">var submitted=false;</script>
 					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://www.atec-dental.de/de/thanks/';}"></iframe>
 					<form class="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLScVD4iQEYwRwNGBDtutj2CVpwFv7YE95jHf6C5xPi0Qq8sefA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
