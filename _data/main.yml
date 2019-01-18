@@ -2,7 +2,8 @@
 info:
   phone: +49-7664-9300-22
   email: info@atec-dental.de
-
+  title: Atec Dental
+  description: "As a family-based company with decades of experience and intense contact to dentist’s and scientist’s, we learn from our past for the future. That defines our most important goal: to satisfy our clients and build a trustful and long-term partnership. Our competent, motivated and trusting team engage with big impact our company philosophy."
 
 menus:
   - title: Home
@@ -189,7 +190,8 @@ de:
   info:
     phone: +49-7664-9300-22
     email: info@atec-dental.de
-
+    title: Atec Dental
+    description: "As a family-based company with decades of experience and intense contact to dentist’s and scientist’s, we learn from our past for the future. That defines our most important goal: to satisfy our clients and build a trustful and long-term partnership. Our competent, motivated and trusting team engage with big impact our company philosophy."
 
 
   menus:
