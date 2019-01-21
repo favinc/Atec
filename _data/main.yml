@@ -13,10 +13,7 @@ menus:
     link: /about/
 
   - title: Products
-    link: '#'
-    sub:
-      - title: Bestsellers
-        link: /products/bestsellers/
+    link: /products/
 
   - title: Our Partners
     link: /partners/
@@ -202,10 +199,7 @@ de:
       link: /de/about/
 
     - title: Produkte
-      link: '#'
-      sub:
-        - title: Bestsellers
-          link: /de/products/bestsellers/
+      link: /de/products/
 
     - title: Unsere Partner
       link: /de/partners/

@@ -1,19 +1,19 @@
 ---
-layout: default
-title: Bestsellers
-permalink: /products/bestsellers/
+layout: default-de
+title: Products
+permalink: /de/products/
 ---
 
 
 <div id="wj-bestsellers" class="container py-lg">
   <div class="row animate-box">
     <div class="col-md-6 col-md-offset-3 text-center wj-heading">
-      <h2>{{site.data.bestsellers.title}}</h2>
+      <h2>{{site.data.bestsellers.de.title}}</h2>
 
     </div>
   </div>
   <div class="row">
-    {% for item in site.data.bestsellers.products %}
+    {% for item in site.data.bestsellers.de.products %}
     <div class="col-md-4">
       <div class="blog-entry">
         <a href="{{item.link}}" class="blog-img" style="background-image: url({{item.image}});">
@@ -42,18 +42,19 @@ permalink: /products/bestsellers/
     </div> -->
 
   </div>
+
 </div>
 
 <div class="bg-light">
 <div id="wj-catalogs" class="container py-lg">
   <div class="row animate-box">
     <div class="col-md-6 col-md-offset-3 text-center wj-heading">
-      <h2>{{site.data.main.catalogs.headline}}</h2>
-      <p>{{site.data.main.catalogs.tagline}}</p>
+      <h2>{{site.data.main.de.catalogs.headline}}</h2>
+      <p>{{site.data.main.de.catalogs.tagline}}</p>
     </div>
   </div>
   <div class="row">
-    {% for item in site.data.main.catalogs.catalog %}
+    {% for item in site.data.main.de.catalogs.catalog %}
     <div class="col-md-4">
       <div class="blog-entry">
         <a href="{{item.link}}" class="" target="_blank">
