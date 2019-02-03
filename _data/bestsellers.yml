@@ -1,53 +1,45 @@
 title: Bestsellers
 tagline:
 products:
-  - name: ENDOFIX®
-    description: Endofix® screws and pins made of titanium are suitable for the strongly destroyed crowns and to strengthen devitalized teeth.
+  - name: ENDOFIX<sup>®</sup>
+    description: Endofix<sup>®</sup> screws and pins made of titanium are suitable for the strongly destroyed crowns and to strengthen devitalized teeth.
     image: /images/products/Screen-Shot-2018-12-07-at-00_004.jpg
     link: /docs/Restaurative_Zahnheilkunde-pages-4-8.pdf
-    usage: /docs/GEndofixplus.pdf
 
   - name: ZIRKONOXID
     description: The zirconium oxide root posts offer a highly esthetic, metal-free and biocompatible restoration of the teeth.
     image: /images/products/Screen-Shot-2018-11-30-at-10.jpg
     link: /docs/Restaurative_Zahnheilkunde-pages-8-9.pdf
-    usage: /docs/GWurzelstifteausZirkonoxidKeramik.pdf
 
   - name: GLASS FIBRE
     description: The glass fibre root posts offer dentine-like elasticity, where a tooth fracture is virtually impossible.
     image: /images/products/Screen-Shot-2018-12-07-at-00_002.jpg
     link: /docs/Restaurative_Zahnheilkunde-pages-8-9.pdf
-    usage: /docs/GWurzelstifteausGlasfaser.pdf 
 
   - name: WSR
     description: Tight closure of the periapical root canal during root apex resection with an apical closure pin.
     image: /images/products/Bild1.jpg
     link: /docs/Restaurative_Zahnheilkunde_10-14.pdf
-    usage: /docs/GEndoseal-WSR-Endofix A.pdf
 
-  - name: MICROMEGA®ONE CURVE
+  - name: MICROMEGA<sup>®</sup>ONE CURVE
     description: One Curve is a disposable instrument for root canal treatment in continuous rotation. A patented heat treatment results in increased flexibility and break resistance. The file can be pre-bent using this.
     image: /images/products/Screen-Shot-2018-12-07-at-00.jpg
     link: /docs/OneCurve.pdf
-    usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-  - name: MICROMEGA® 2SHAPE
+  - name: MICROMEGA<sup>®</sup> 2SHAPE
     description: 2Shape is a sequence of 2 processing instruments in continuous rotation, that have undergone T-Wire heat treatment. The flexibility of the instrument ensures increased breaking strength.
     image: /images/products/Screen-Shot-2018-12-07-at-00_006.jpg
     link: /docs/Katalog_splittedMM_10-15.pdf
-    usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-  - name: SS WHITE® GREAT WHITE® GOLD
+  - name: SS WHITE<sup>®</sup> GREAT WHITE<sup>®</sup> GOLD
     description: The fast tungsten carbide instruments for the removal of Crowns and fillings as well as efficient access to the root canal.
     image: /images/products/Screen-Shot-2018-12-07-at-00_005.jpg
     link: /docs/SSWhite-Katalog_31-36.pdf
-    usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-  - name: SS WHITE® FISSUROTOMY®
+  - name: SS WHITE<sup>®</sup> FISSUROTOMY<sup>®</sup>
     description: The substance-sparing solution for hidden fissure caries is largely painless up to the enamel-dentine border.
     image: /images/products/Screen-Shot-2018-12-07-at-00_003.jpg
     link: /docs/SSWhite-Katalog_19-21.pdf
-    usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
 
 
@@ -56,50 +48,42 @@ de:
   title: Bestsellers
   tagline:
   products:
-    - name: ENDOFIX®
-      description: Endofix® Schrauben und Stifte aus Titan eignen sich für die stark zerstörten Zahnkronen und zur Verstärkung devitaler Zähne.
+    - name: ENDOFIX<sup>®</sup>
+      description: Endofix<sup>®</sup> Schrauben und Stifte aus Titan eignen sich für die stark zerstörten Zahnkronen und zur Verstärkung devitaler Zähne.
       image: /images/products/Screen-Shot-2018-12-07-at-00_004.jpg
       link: /docs/Restaurative_Zahnheilkunde-pages-4-8.pdf
-      usage: /docs/GEndofixplus.pdf
 
     - name: ZIRKONOXID
       description: Die Wurzelstifte aus Zirkonoxid bieten eine hochästhetische, metallfreie und biokompatible Restauration der Zähne.
       image: /images/products/Screen-Shot-2018-11-30-at-10.jpg
       link: /docs/Restaurative_Zahnheilkunde-pages-8-9.pdf
-      usage: /docs/GWurzelstifteausZirkonoxidKeramik.pdf
 
     - name: GLASFASER
       description: Die Wurzelstifte aus Glasfaser bieten eine dentinähnliche Elastizität, wo eine Zahnfraktur nahezu ausgeschlossen ist.
       image: /images/products/Screen-Shot-2018-12-07-at-00_002.jpg
       link: /docs/Restaurative_Zahnheilkunde-pages-8-9.pdf
-      usage: /docs/GWurzelstifteausGlasfaser.pdf
 
     - name: WSR
       description: Dichter Verschluss des periapikalen Wurzelkanals bei der Wurzelspitzenresektion mit apikalem Verschlussstift oder Stabilisationsstift.
       image: /images/products/Bild1.jpg
       link: /docs/Restaurative_Zahnheilkunde_10-14.pdf
-      usage: /docs/GEndoseal-WSR-Endofix A.pdf
 
-    - name: MICROMEGA®ONE CURVE
+    - name: MICROMEGA<sup>®</sup>ONE CURVE
       description: One Curve ist ein Einmalinstrument für die Wurzelbehandlung in kontinuierlicher Rotation. Durch eine patentierte Wärmebehandlung entsteht eine erhöhte Flexibilität und Bruchresistenz. Über dies ist die Feile vorbiegbar..
       image: /images/products/Screen-Shot-2018-12-07-at-00.jpg
       link: /docs/POne_Curve.pdf
-      usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-    - name: MICROMEGA® 2SHAPE
+    - name: MICROMEGA<sup>®</sup> 2SHAPE
       description: 2Shape ist eine Sequenz mit 2 Aufbereitungsinstrumenten in kontinuierlicher Rotation, die der Wärmebehandlung T•Wire unterzogen wurden. Die Flexibilität des Instruments gewährleistet eine erhöhte Bruchfestigkeit.
       image: /images/products/Screen-Shot-2018-12-07-at-00_006.jpg
       link: /docs/Katalog_splittedMM_10-15.pdf
-      usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-    - name: SS WHITE® GREAT WHITE® GOLD
+    - name: SS WHITE<sup>®</sup> GREAT WHITE<sup>®</sup> GOLD
       description: Die schnellen Hartmetallinstrumente für die Entfernung von Kronen und Füllungen sowie effizienten Zugang zum Wurzelkanal.
       image: /images/products/Screen-Shot-2018-12-07-at-00_005.jpg
       link: /docs/SSWhite-Katalog_31-36.pdf
-      usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf
 
-    - name: SS WHITE® FISSUROTOMY®
+    - name: SS WHITE<sup>®</sup> FISSUROTOMY<sup>®</sup>
       description: Die substanzschonende Lösung bei versteckter Fissurenkaries erfolgt weitgehend schmerzfrei bis zur Schmelz-Dentin-Grenze.
       image: /images/products/Screen-Shot-2018-12-07-at-00_003.jpg
       link: /docs/SSWhite-Katalog_19-21.pdf
-      usage: /docs/GWiederaufbereitungsanleitungInstrumentarium.pdf

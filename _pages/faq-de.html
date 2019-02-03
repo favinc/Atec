@@ -27,6 +27,20 @@ permalink: /de/faqs/
                    <div class="row">
                     <div class="col-md-12">
                       <p>{{item.answer}}</p>
+                      {% if forloop.index == 2 %}
+                     <div class="row py-md">
+                       <div class="col-md-12">
+                         <h4>Gebrauchsanweisung</h4>
+                       </div>
+                       <div class="col-md-12">
+                         <ol>
+                           {% for item in site.data.faqs.usage %}
+                           <li><a href="{{item.link}}" target="_blank" class="">{{item.title}}</a></li>
+                           {% endfor %}
+                         </ol>
+                       </div>
+                     </div>
+                      {% endif %}
                     </div>
 
                   </div>
