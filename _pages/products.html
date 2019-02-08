@@ -20,7 +20,7 @@ permalink: /products/
         </a>
         <div class="desc">
           <h3><a href="{{item.link}}">{{item.name}}</a></h3>
-          <p>{{item.description}}<br>
+          <p>{{item.description | truncate: 90}}<br>
         </p>
         </div>
       </div>

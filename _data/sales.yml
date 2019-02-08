@@ -1,0 +1,11 @@
+title: Sales
+tagline:
+
+offers:
+  - title: Antwort Formular
+    image: /images/products/Screen-Shot-2018-12-07-at-00_005.jpg
+    pdf: /docs/antwort-formular.pdf
+
+  - title: MM One Curve
+    image: /images/products/Screen-Shot-2018-12-07-at-00.jpg
+    pdf: /docs/MM-One-Curve.pdf
