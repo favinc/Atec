@@ -218,8 +218,12 @@ img {
 
 .shadow {
   box-shadow: 0 0 15px #e0e0e0;
+
+  &:hover {
+    box-shadow: 0 0 25px #e0e0e0;
+  }
 }
 
-.border {
-  border: 1px solid #eee;
+.border-success {
+  border: 2px solid #69cb6a;
 }
