@@ -65,8 +65,7 @@ products:
       description: The root posts made of glass fiber and zirconium oxide offer an excellent alternative when highly esthetic, metal-free restorations are desired.
     - title: Titanium root fritters
       description: The Endofix plus system stands for successful, long-standing use in dentistry and is characterized by safety for patients and dentist.
-    - title: Bleaching
-      description: Complete patient teeth whitening system with three components for multiple and easy use in the dental practice.
+    
 
 
 catalogs:
@@ -81,9 +80,6 @@ catalogs:
 
     - image: /images/catalogs/EndoBook_bild.png
       link: /docs/EndoBook 2018.pdf
-
-    - image: /images/catalogs/Bleaching-Set.jpeg
-      link: /docs/Bleach.pdf
 
     - image: /images/catalogs/5.png
       link: /docs/Diamanten.pdf
@@ -252,10 +248,7 @@ de:
         description: Die Wurzelstifte aus Glasfaser und Zirkonoxid bieten eine hervorragende Alternative, wenn hochästhetische, metallfreie Restaurationen erwünscht sind.
       - title: Wurzelstfite aus Titan
         description: Das Endofix plus System steht für erfolgreiche, jahrelange Anwendung in der Zahnmedizin und zeichnet sich durch Sicherheit für Patienten und Zahnarzt aus.
-      - title: Bleaching
-        description: Komplettes Patienten-Zahnaufhellungssytem mit drei Komponenten für mehrmalige und einfache Anwendung in der Zahnarztpraxis.
-
-
+      
   catalogs:
     headline: Kataloge unserer Produkte
     tagline: Falls Sie Fragen zu einzelnen Produkten/Katalogen haben, rufen Sie uns an und wir helfen Ihnen so schnell wie möglich weiter.
@@ -268,9 +261,6 @@ de:
 
       - image: /images/catalogs/EndoBook_bild.png
         link: /docs/EndoBook 2018.pdf
-
-      - image: /images/catalogs/Bleaching-Set.jpeg
-        link: /docs/Bleach.pdf
 
       - image: /images/catalogs/5.png
         link: /docs/Diamanten.pdf
