@@ -2,12 +2,12 @@ title: Sales
 tagline:
 
 offers:
-  - title: September Sales
-    image: /docs/Oct.jpg
-    pdf:   /docs/Oct.pdf
-    offer: Unsere Aktion ist gültig bis 31.09.2019 
+  - title: November Sales
+    image: /docs/Nov1.png
+    pdf:   /docs/Nov1.pdf
+    offer: Unsere Aktion ist gültig bis 31.10.2019 
 
-  - title: September Sales
-    image: /docs/Oct.jpg
-    pdf:   /docs/Oct.pdf
-    offer: Unsere Aktion ist gültig bis 31.09.2019
+  - title: November Sales
+    image: /docs/Nov1.png
+    pdf:   /docs/Nov1.pdf
+    offer: Unsere Aktion ist gültig bis 31.10.2019
