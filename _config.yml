@@ -4,7 +4,7 @@
 
 ## Change the description appropriately
 
-#baseurl: /fabio-website
+#baseurl: /atec
 
 sass:
   style: compressed
